@@ -38,7 +38,7 @@ const DropdownPortal = ({ children }) => ReactDOM.createPortal(children, documen
 
 const App = () => {
   const navItems = [
-    { name: 'Home', link: '#home' },
+    { name: 'Home', link: 'https://aucse.vercel.app/' },
     { name: 'About', link: 'https://www.aucse.in/About-Us' },
     { name: 'Notice', link: 'https://aucse.vercel.app/notice' },
     { name: 'Programs', link: 'https://www.aucse.in/programs' },
